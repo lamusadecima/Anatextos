@@ -6,10 +6,10 @@
 
 
 # Primero establecemos el directorio de trabajo
-# Si tienes un Mac y has guardado la carpeta "novela-española" en el escritorio:
-setwd("Desktop/novela-española")
+# Si tienes un Mac y has guardado la carpeta "novela" en el escritorio:
+setwd("Desktop/novela")
 # Si tienes Windows y has guardado la carpeta en C:
-setwd("C:/novela-española")
+setwd("C:/novela")
 
 # A continuación, llamamos al paquete stylo
 
@@ -33,5 +33,5 @@ setwd("PCA")
 stylo()
 
 # Para Rolling Classify
-setwd("Rolling") # usamos el corpus de Amor es más laberinto
+setwd("Rolling")
 rolling.classify(write.png.file = TRUE, classification.method = "svm", mfw=100, training.set.sampling = "normal.sampling", slice.size = 1000, slice.overlap = 500)
