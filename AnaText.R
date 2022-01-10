@@ -34,4 +34,4 @@ stylo()
 
 # Para Rolling Classify
 setwd("Rolling")
-rolling.classify(write.png.file = TRUE, classification.method = "svm", mfw=100, training.set.sampling = "normal.sampling", slice.size = 1000, slice.overlap = 500)
+rolling.classify(write.png.file = TRUE, classification.method = "svm", mfw=100, training.set.sampling = "normal.sampling", slice.size = 5000, slice.overlap = 4500)
