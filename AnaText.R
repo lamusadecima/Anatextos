@@ -33,5 +33,6 @@ setwd("PCA")
 stylo()
 
 # Para Rolling Classify
-setwd("Rolling")
+setwd("Desktop/Rolling") #mac
+setwd("C:/Rolling") #windows
 rolling.classify(write.png.file = TRUE, classification.method = "svm", mfw=100, training.set.sampling = "normal.sampling", slice.size = 5000, slice.overlap = 4500)
